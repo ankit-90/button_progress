@@ -1,0 +1,28 @@
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:color="#9000B8CC"
+        tools:targetApi="lollipop"
+>
+    <item>
+        <selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+            <item android:state_enabled="false">
+
+                <shape xmlns:android="http://schemas.android.com/apk/res/android">
+                    <solid android:color="@color/white_with_opacity_eighty" />
+                    <corners android:radius="@dimen/spacing_micro" />
+                </shape>
+
+            </item>
+
+            <item android:state_enabled="true">
+
+                <shape xmlns:android="http://schemas.android.com/apk/res/android">
+                    <solid android:color="@color/colorPrimary" />
+                    <corners android:radius="@dimen/spacing_micro" />
+                </shape>
+
+            </item>
+        </selector>
+    </item>
+</ripple>
