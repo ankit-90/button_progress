@@ -9,6 +9,14 @@ import android.widget.FrameLayout
 import androidx.core.content.ContextCompat
 import kotlinx.android.synthetic.main.layout_button_progress.view.*
 
+/**
+ * @author Ankit Chandel
+ * @since 7 March, 2019
+ * <h1>ProgressButton</h1>
+ * <p>Show progress bar on button</p>
+ *
+ * */
+
 class ProgressButton @JvmOverloads constructor(
     context: Context, attrs: AttributeSet? = null, defStyleAttr: Int = 0
 ) : FrameLayout(context, attrs, defStyleAttr) {
